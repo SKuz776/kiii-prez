@@ -33,7 +33,7 @@ jobs:
         run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       
       - name: Build Docker Image
-        run: docker build . --file sqat-webchecker/Dockerfile --tag webchecker:$(date +%s)
+        run: docker build . --file sqat-webchecker/Dockerfile --tag skuz66/kiii-prez:webcheck
         
       - name: Docker Push Image
         run: docker push ${{secrets.DOCKER_USER}}/kiii-prez
