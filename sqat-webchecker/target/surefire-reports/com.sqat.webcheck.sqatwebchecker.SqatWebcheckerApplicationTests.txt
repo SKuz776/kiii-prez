@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sqat.webcheck.sqatwebchecker.SqatWebcheckerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.177 s - in com.sqat.webcheck.sqatwebchecker.SqatWebcheckerApplicationTests
